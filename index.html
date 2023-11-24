@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class#21_49-52 || js</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h3>Qs1.. Signup form</h3>
+
+    <div class="container">
+        <form class="form1" id="signupForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName1" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName1" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+
+
+
+        <div id="formData"></div>
+    </div>
+
+
+
+
+
+    <!-- Title  -->
+
+    <h3>Qs2.. Title</h3>
+    <div class="item">
+        <h2>Item Title</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        <div class="read-more-content">
+            <p>Nesciunt perferendis saepe incidunt, doloremque numquam nisi quo eius voluptas illum, eveniet delectus ad
+                eos commodi ipsa sit fuga at maiores modi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt assumenda, esse voluptates nihil quasi voluptatem itaque dignissimos totam minus corrupti,
+                maxime praesentium quae magni harum sit iste nemo ex odit Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Nesciunt iure excepturi repellendus, ipsa dolorum inventore perferendis repellat, quam
+                quo fuga perspiciatis cumque minus ipsum a ratione laudantium sapiente explicabo! Impedit.
+                "Read more".
+            </p>
+            <p>Additional information about the item.</p>
+        </div>
+        <button class="read-more-btn" onclick="readMore(this)">Read more</button>
+    </div>
+
+
+
+    <!-- Student Form -->
+
+
+    <h3>Qs3.. Student Form </h3>
+
+    <div class="row">
+        <form class="form1" id="studentForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="grade">Grade:</label>
+            <input type="text" id="grade" name="grade" required>
+
+            <button type="button" onclick="addStudent()">Add Student</button>
+        </form>
+
+
+
+        <div id="editForm" class="hidden-form">
+            <h2>Edit Student</h2>
+            <label for="editFirstName">First Name:</label>
+            <input type="text" id="editFirstName" name="editFirstName" required>
+
+            <label for="editLastName">Last Name:</label>
+            <input type="text" id="editLastName" name="editLastName" required>
+
+            <label for="editGrade">Grade:</label>
+            <input type="text" id="editGrade" name="editGrade" required>
+
+            <button type="button" onclick="updateStudent()">Update</button>
+        </div>
+
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Grade</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

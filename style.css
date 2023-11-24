@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: fit-content;
+    height: 300px;
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: rgb(205, 205, 255);
+    margin-top: 4.5rem;
+    box-shadow: 2px 3px 10px 2px rgb(34, 33, 33);
+}
+
+.form1{
+    max-width: 400px;
+    margin: 0 60px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    margin: 3px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+
+/* Qs2 */
+
+.item {
+    max-width: 600px;
+    margin: 50px auto;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.item p {
+    margin: 0;
+}
+
+.read-more-content {
+    display: none;
+}
+
+.read-more-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Qs3 Student form */
+.row{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    left: auto;
+    max-width:500px;
+    max-height: 12000px;
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 10px;
+    background-color: rgb(205, 205, 255);
+    margin-top: 4.5rem;
+    padding:20px;
+    box-shadow: 2px 3px 10px 2px rgb(34, 33, 33);
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,th,td{
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden-form {
+    display:none;
+    margin-top: 20px;
+  }
